@@ -31,7 +31,7 @@ db.connect(err => {
 });
 
 // Start WebAPI
-const licenseCheckApi = require('./api/licensecheck')(db);
+const licenseCheckApi = require('./API/licensecheck')(db);
 app.use('/api', licenseCheckApi);
 
 app.listen(8080, () => {
