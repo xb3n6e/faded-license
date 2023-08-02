@@ -1,0 +1,105 @@
+{
+    "database": {
+        "console": {
+            "connection_lost": "Database connection has been disconnected! Please restart your bot!",
+            "connected": "Database connection has been connected!"
+        }
+    },
+    "clientready": {
+        "onReady": "", "__COMMENT__": "Placeholders: {botname}, {botid}",
+        "__COMMENT__.": "OWNER COMMANDS (Only use who have config.json = ownerRole)",
+        "+addlicense": "[+] /addlicense [license] [username]",
+        "+removelicense": "[+] /removelicense [license]",
+        "+resetdatabase": "[+] /resetdatabase [accept]",
+        "+editlicensekey": "[+] /editlicensekey [license] [new license]",
+        "+editlicensebuyer": "[+] /editlicensebuyer [license] [new buyer]",
+        "+connectedusers": "[+] /connectedusers [license]",
+        "+clearips": "[+] /clearips [license]"
+    },
+    "slashcommands": {
+        "addlicense": {
+            "description": "Add license to license system",
+            "options": {
+                "licensekey": "Custom License Key",
+                "username": "Buyer mention"
+            }
+        },
+        "removelicense": {
+            "description": "Edit license key in the license system",
+            "options": {
+                "licensekey": "Original license key",
+                "newlicensekey": "New license key"
+            }
+        },
+        "resetdatabase": {
+            "description": "Reset license system database! You will be delete ALL license with /resetdatabase"
+        },
+        "editlicensekey": {
+            "description": "Edit license key in the license system",
+            "options": {
+                "licensekey": "Original license key",
+                "newlicensekey": "New license key"
+            }
+        },
+        "editlicensebuyer": {
+            "description": "Edit license key in the license system",
+            "options": {
+                "licensekey": "License key",
+                "newbuyer": "New license key buyer (NO MENTION!)"
+            }
+        },
+        "connectedusers": {
+            "description": "Edit license key in the license system",
+            "options": {
+                "licensekey": "Original license key",
+                "newlicensekey": "New license key"
+            }
+        },
+        "clearips": {
+            "description": "Clear all used IP addresses",
+            "options": {
+                "licensekey": "License key"
+            }
+        }
+    },
+    "language": {
+        "addlicense": {
+            "msg": "> License has been added to license system!"
+        },
+        "removelicense": {
+            "msg": "> License has been removed from license system!"
+        },
+        "resetdatabase": {
+            "alloweduser": {
+                "userid": "1102879568852951121",
+                "msg": "You are not authorized to use this command!"
+            },
+            "msg": "Are you sure you want to delete all data from the License Database? ***IF YOU PRESS 'Delete' BUTTON, ALL LICENSE WILL BE DELETED FROM DATABASE!",
+            "buttons": {
+                "cancel": {
+                    "label": "cancel",
+                    "msg": "Deletion canceled."
+                },
+                "delete": {
+                    "label": "Delete",
+                    "msg": "All data has been deleted from the License Database!"
+                },
+                "timeout": "Confirmation timeout. Deletion canceled."
+            }
+        },
+        "editlicensekey": {
+            "wrongformat": "> The new license key must be different from the old key!",
+            "doesntexist": "> The license key '${licenseKey}' does not exist in the license system!",
+            "msg": "> License key has been edited in the license system!"
+        },
+        "editlicensebuyer": {
+            "wrongformat": "> The license key must be different from the buyer name!",
+            "wrongformat2": "> The new buyer must be different from the old buyer name!",
+            "doesntexist": "> The license key '${licenseKey}' does not exist in the license system!",
+            "msg": "> New buyer successfully updated!"
+        },
+        "connectedusers": {
+            "msg": "Connected users to this license: ${listusernames}"
+        }
+    }
+}
