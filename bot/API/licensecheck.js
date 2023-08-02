@@ -8,7 +8,7 @@ function createLicenseCheckApi(connection) {
     const sql = "SELECT * FROM license_table WHERE license_key = ?";
     connection.query(sql, [licenseKey], (err, result) => {
       if (err) {
-        console.error('Hiba az adatbáziskérés során: ' + err.message);
+        console.error('Error when connecting with database: ' + err.message);
         res.json({
           status: 'INVALID',
           buyer: ''
