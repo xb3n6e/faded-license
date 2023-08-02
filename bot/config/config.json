@@ -1,18 +1,18 @@
 {
     "botsettings": {
-        "clientid": "1108820083926630501",
-        "token": "MTEwODgyMDA4MzkyNjYzMDUwMQ.GMdm9T.xQT4sMVvuA2Ptw8G-fGzdZ2f3_TKT99ZS7ihDI",
-        "clientsecretid": "HSGeKAb3VpQ3v9eaYK4b61B_RwrglLun"
+        "clientid": "",
+        "token": "",
+        "clientsecretid": ""
     },
     "roles": {
-        "ownerRole": "1103050726726434906",
-        "staffRole": "1105959518241837119",
-        "customerRole": "1103050697076908063"
+        "ownerRole": "",
+        "staffRole": "",
+        "customerRole": ""
     },
     "MySQL": {
-        "hostname": "localhost",
-        "username": "root",
+        "hostname": "",
+        "username": "",
         "password": "",
-        "databasename": "license_table"
+        "databasename": ""
     }
 }
