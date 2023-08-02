@@ -39,7 +39,7 @@ app.listen(8080, () => {
 });
 
 client.on('ready', () => {
-  console.log(`Bejelentkezve mint ${client.user.tag}!`);
+  console.log(`Logined as ${client.user.tag}!`);
 
   client.guilds.cache.forEach(guild => {
     guild.commands.create({
