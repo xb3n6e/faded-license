@@ -71,7 +71,7 @@
         },
         "resetdatabase": {
             "alloweduser": {
-                "userid": "1102879568852951121",
+                "userid": "",
                 "msg": "You are not authorized to use this command!"
             },
             "msg": "Are you sure you want to delete all data from the License Database? ***IF YOU PRESS 'Delete' BUTTON, ALL LICENSE WILL BE DELETED FROM DATABASE!",
