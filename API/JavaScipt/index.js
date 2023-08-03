@@ -5,7 +5,7 @@ const { Client, Intents, GatewayIntentBits } = require('discord.js');
 const fs = require('fs');
 const yaml = require('js-yaml');
 
-const bottoken = "MTEwODgyMDA4MzkyNjYzMDUwMQ.Ga0pww.FXxPLm0j7PMWafFTq0PpSOV1F6553yd4GWMlK8";
+const bottoken = "YOUR_DISCORD_BOT_TOKEN";
 const importLicense = `You can change the license access path line of 99!`;
 const ResponseURL = `http://localhost:8080/api/checklicense?licenseKey=${licenseKey}`;
 
